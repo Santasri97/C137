@@ -1,0 +1,28 @@
+body {
+    background-size: cover;
+}
+
+#start {
+    font-size: 20px;
+}
+
+#status ,#number_of_objects {
+    font-size: 20px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color:ghostwhite;
+    bottom: 0;
+    width: 100%;
+    background-color: orangered;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas {
+    margin-top: 100px;
+    border: 5px solid yellow;
+    border-radius: 25;
+    box-shadow: inset 7px 7px 7px orange, -7px -7px 7px orangered ,7px 7px 7px red , inset -7px -7px 7px magenta;
+}
